@@ -9,98 +9,48 @@
 </head>
 <body>
     <!-- Área de Apresentação -->
-    <div class="Container">
-        <h1>
-            Maurício Rodrigues
-        </h1>
-        <h2>
-            Programador de Jogos 2D
-        </h2>
-
-        <div class="ability-icon">
-            <img src="images/unity-icon.png" class="logo">
-            
-            <img src="images/c-sharp-icon.png" class="logo">
-            
-            <img src="images/godot-icon-removebg-preview.png" class="logo">
-
-            <img src="images/github-icon.png" class="logo">
-        </div>
-
-        <div class="social-medias">
-            <a href="https://implanic.itch.io/">
-                <img src="images/itch.io-icon.png" class="icon-sm">
-            </a>
-
-            <a href="https://www.linkedin.com/in/mauricio-rodrigues-61963b325/">
-                <img src="images/linkedin-icon.png" class="icon-sm">
-            </a>
-
-            <a href="https://github.com/MauricioSilvaIPN">
-                <img src="images/github-icon.png" class="icon-sm">
-            </a>
-        </div>
-
-        <div class="about-author">
-          <h3>
-            Olá, sou desenvolvedor de jogos 2D, especializado em criar mecânicas de jogos e
-            estados de máquina tudo isso dentro de ferramentas como Godot e Unity.
-          </h3>
-
-          <h3>
-            Abaixo você pode checar alguns dos projetos que já trabalhei.
-          </h3>
-        </div>
-
-        <!-- Área do portfólio -->
-        <h1>
-            Portfólio
-        </h1>
+    <main id="container">
         
-        <div class="portfolio">
-            <div class="games">
-                <a href="https://implanic.itch.io/tankonnection">
-                    <img src="images/print-tankonnection.png" class="game-image">
-                    <p>Tankonnection</p>
-                </a>
-            </div>
+        <aside id="bio-container">
+            <h2>Maurício Silva</h2>
+        
+            <img src="images/profile-image.png" alt="Maurício Silva">
+        
+            <p>Olá, meu nome é Maurício Silva e eu sou <span class="highlight">Game Developer.</span></p>
+            <p id="welcome-text">Seja muito bem-vindo</p>
 
-            <div class="games">
-                <a href="https://implanic.itch.io/catshooter">
-                    <img src="images/print-catshooter.png" class="game-image">
-                    <p>CatShooter</p>
-                </a>
+            <ul id="social-container">
+                <li><a href="https://www.linkedin.com/in/mauricio-rodrigues-61963b325/"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/MauricioSilvaIPN"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:mauriciorodriguess.silva@gmail.com">mauriciorodriguess.silva@gmail.com</a>
             </div>
+        </aside>
 
-            <div class="games">
-                <a href="https://drive.google.com/file/d/1Kadq_SqcQkRGqcd_4QdS4PvJVaODvgyZ/view">
-                    <img src="images/print-checkpoint.png" class="game-image">
-                    <p>Checkpoint Pizza</p>
-                </a>
-            </div>
+        <section id="about-container">
+            <h1 id="name">Maurício Silva</h1>
+            <p id="title"><span class="highlight">Game Developer</span></p>
+            <p class="description">Sou um desenvolvedor de jogos 2D com experiência nas engines <span class="highlight">Godot</span> e <span class="highlight">Unity</span></p>
+            
+            <a href="" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            
+            <p class="description">Conheça as tecnologias que eu domino:</p>
 
-            <div class="games">
-                <a href="https://github.com/MauricioSilvaIPN/MathAttack">
-                    <img src="images/print-mathattack.png" class="game-image">
-                    <p>Math Attack</p>
-                </a>
-            </div>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Tecnologias</p>
+                    <i class="devicon-csharp-plain colored"></i>
+                    <i class="devicon-unity-plain colored"></i>
+                    <i class="devicon-godot-plain colored"></i>
+                    <i class="devicon-git-plain colored"></i>
+                </div>
 
-            <div class="games">
-                <a href="https://implanic.itch.io/sweetchange">
-                    <img src="images/print-sweetchange.png" class="game-image">
-                    <p>SweetChange</p>
-                </a>
             </div>
-
-            <div class="games">
-                <a href="https://github.com/MauricioSilvaIPN/SpaceShooter">
-                    <img src="images/print-spaceshooter.png" class="game-image">
-                    <p>SpaceShooter</p>
-                </a>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
     <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
 </body>
